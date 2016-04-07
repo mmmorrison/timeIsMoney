@@ -1,0 +1,22 @@
+<template name='layout'>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+        <li><a class='navbar-brand' href="/">Time I&#36; Money</a></li>
+        <li><a href="/users">Find Friends</a></li>
+        <li><a href="/plan">Plan Route</a></li>
+
+      </ul>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="nav navbar-nav navbar-right">
+          {{> loginButtons }}
+        </ul>
+      </div>
+    </nav>
+
+    <div id="main">
+      {{> Template.dynamic template=child}}
+    </div>
+  </div>
+</template>

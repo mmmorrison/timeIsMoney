@@ -1,4 +1,4 @@
-# Time is Money Android App
+# Time is Money Meteor App
 
 Time is money is a quote often heard but seldom understood.  In transportation time spent waiting is literally money loss for owner/operators.
 
